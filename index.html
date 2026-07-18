@@ -13,7 +13,7 @@
 <body>
     <header>
         <!-- MOVIDO AQUÍ: El navbar ahora está correctamente en el cuerpo de la página -->
-        <nav class="navbar navbar-expand-lg" id="NavbarBG"">
+        <nav class="navbar navbar-expand-lg" id="NavbarBG">
             <div class="container-fluid">
                 <a href="/index.html"><img class="navbar-brand" src="/img/logo.png" style="background-color: white;" alt="Logo" width="100px"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -22,20 +22,17 @@
                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link" id="Links" aria-current="page" href="/pages/WhoWeAre.html">QUIENES SOMOS</a>
+                            <a class="nav-link" id="Links" aria-current="page" href="/pages/WhoWeAre.html" style="font-weight: bolder;">QUIENES SOMOS</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" id="Links" href="/pages/NuestraMision.html">NUESTRA MISIÓN</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" id="Links" href="#">Pricing</a>
+                            <a class="nav-link" id="Links" href="/pages/NuestraMision.html" style="font-weight: bolder;">NUESTRA MISIÓN</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
         
-        <H1 class="Titulos" style="margin-top: 2%; margin-bottom: 2%;">PROFESIONAL TOTAL CLEAN</H1>
+        <H1 class="Titulos">PROFESIONAL TOTAL CLEAN</H1>
     </header>
 
     <main>
@@ -66,123 +63,146 @@
             </button>
         </div>
         
-        <div>
-            <div class="container-md">
-                <H2 style="margin-top: 10%;">NUESTROS SERVICIOS</H2>
-            </div>
-            <section id="nuestros-servicios" class="container py-5">
-    <!-- Estilos específicos para la sección (puedes moverlos a tu archivo CSS principal) -->
-    <style>
-        .servicios-container {
-            position: relative;
-            min-height: 450px;
-        }
-        .circulo-central {
-            background-color: #0070c0;
-            color: white;
-            width: 280px;
-            height: 280px;
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            text-align: center;
-            font-weight: bold;
-            font-size: 1.8rem;
-            text-transform: uppercase;
-            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-        }
-        .titulo-servicio {
-            color: #002060; /* Azul oscuro para los títulos */
-            font-weight: bolder;
-            margin-bottom: 12px;
-        }
-        .lista-servicios {
-            list-style-type: disc;
-            padding-left: 20px;
-            text-align: left;
-            display: inline-block;
-        }
-        .lista-servicios li {
-            margin-bottom: 6px;
-            color: #333;
-        }
-    </style>
-
-    <div class="row align-items-center servicios-container text-center g-4">
-        
-        <!-- COLUMNA IZQUIERDA -->
-        <div class="col-lg-4 col-md-6 order-1">
-            <!-- Limpieza General -->
-            <div class="mb-5">
-                <h3 class="titulo-servicio h5">LIMPIEZA GENERAL</h3>
-                <ul class="lista-servicios">
-                    <li>Limpieza de pisos, paredes y techos</li>
-                    <li>Limpieza de ventanas y áreas comunes</li>
-                    <li>Sanitización de baños y cocinas</li>
-                    <li>Limpieza profunda</li>
-                </ul>
-            </div>
-            
-            <!-- Tapicería -->
-            <div>
-                <h3 class="titulo-servicio h5">TAPICERÍA</h3>
-                <ul class="lista-servicios">
-                    <li>Sillas empresariales</li>
-                    <li>Sillas de comedor</li>
-                    <li>Salas</li>
-                    <li>Reposet</li>
-                    <li>Sofá cama</li>
-                    <li>Taburetes</li>
-                    <li>Cabeceras</li>
-                </ul>
-            </div>
-        </div>
-
-        <!-- COLUMNA CENTRAL (Círculo) -->
-        <div class="col-lg-4 col-md-12 order-lg-2 order-md-4 d-flex justify-content-center my-4">
-            <div class="circulo-central p-4">
-                <div>NUESTROS<br>SERVICIOS</div>
-            </div>
-        </div>
-
-        <!-- COLUMNA DERECHA -->
-        <div class="col-lg-4 col-md-6 order-3">
-            <!-- Cuidados del Jardín -->
-            <div class="mb-5">
-                <h3 class="titulo-servicio h5">CUIDADOS DEL JARDÍN</h3>
-                <ul class="lista-servicios">
-                    <li>Mantenimiento de áreas verdes para una imagen impecable y armoniosa</li>
-                    <li>Poda y riego de jardines</li>
-                    <li>Mantenimiento de césped y plantas</li>
-                </ul>
-            </div>
-            
-            <!-- Fumigación -->
-            <div>
-                <h3 class="titulo-servicio h5">FUMIGACIÓN</h3>
-                <ul class="lista-servicios">
-                    <li>Fumigación de Plaga</li>
-                    <li>Desinfección para eliminar virus y bacterias</li>
-                </ul>
-            </div>
-        </div>
-
+    <div>
+    <div class="container-md">
+        <h2 style="margin-top: 10%;" class="text-center fw-bold">¡LO QUE TE OFRECEMOS!</h2>
     </div>
+    
+    <section id="nuestros-servicios" class="container py-5">
+        <!-- Estilos específicos optimizados -->
+        <style>
+            .servicios-container {
+                position: relative;
+                min-height: 450px;
+            }
+            .circulo-central {
+                background-color: #0070c0;
+                color: white;
+                width: 280px;
+                height: 280px;
+                border-radius: 50%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+                font-weight: bold;
+                font-size: 1.8rem;
+                text-transform: uppercase;
+                box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            }
+            .bloque-servicio {
+                background-color: #ffffff;
+                padding: 15px;
+                border-radius: 12px;
+                transition: transform 0.3s ease;
+            }
+            /* Al pasar el cursor, el bloque completo se eleva sutilmente */
+            .bloque-servicio:hover {
+                transform: translateY(-5px);
+            }
+            .titulo-servicio {
+                color: #002060;
+                font-weight: bolder;
+                margin-top: 15px;
+                margin-bottom: 12px;
+            }
+            .lista-servicios {
+                list-style-type: disc;
+                padding-left: 20px;
+                text-align: left;
+                display: inline-block;
+                width: 100%;
+            }
+            .lista-servicios li {
+                margin-bottom: 6px;
+                color: #333;
+            }
+            /* Imagen grande, completa y adaptativa */
+            .img-servicio-grande {
+                width: 100%;
+                height: 180px; /* Altura ideal para mantener simetría */
+                object-fit: cover; /* Asegura que la foto llene el espacio sin deformarse */
+                border-radius: 8px;
+            }
+        </style>
 
-    <!-- BLOQUE INFERIOR (Suministro de Productos) -->
-    <div class="row justify-content-center text-center mt-4">
-        <div class="col-lg-6 col-md-8">
-            <h3 class="titulo-servicio h5">SUMINISTRO DE PRODUCTOS DE LIMPIEZA</h3>
-            <ul class="lista-servicios">
-                <li>Proveemos insumos y equipos de alta calidad para garantizar una higiene efectiva:</li>
-                <li>Detergentes y desinfectantes profesionales.</li>
-                <li>Consumibles para baños y áreas comunes</li>
-            </ul>
+        <div class="row align-items-center servicios-container g-4">
+            
+            <!-- COLUMNA IZQUIERDA -->
+            <div class="col-lg-4 col-md-6 order-1">
+                <!-- Limpieza General -->
+                <div id="limpieza" class="bloque-servicio mb-4 shadow-sm">
+                    <img src="/img/LimpiezaGeneral.jpg.jpeg" alt="Limpieza General" class="img-servicio-grande">
+                    <h3 class="titulo-servicio h5 text-center">LIMPIEZA GENERAL</h3>
+                    <ul class="lista-servicios">
+                        <li>Limpieza de pisos, paredes y techos</li>
+                        <li>Limpieza de ventanas y áreas comunes</li>
+                        <li>Sanitización de baños y cocinas</li>
+                        <li>Limpieza profunda</li>
+                    </ul>
+                </div>
+                
+                <!-- Tapicería -->
+                <div id="tapiceria" class="bloque-servicio shadow-sm">
+                    <img src="/img/Tapiceria.jpg.jpeg" alt="Tapicería" class="img-servicio-grande">
+                    <h3 class="titulo-servicio h5 text-center">TAPICERÍA</h3>
+                    <ul class="lista-servicios">
+                        <li>Sillas empresariales</li>
+                        <li>Sillas de comedor</li>
+                        <li>Salas</li>
+                        <li>Reposet</li>
+                        <li>Sofá cama</li>
+                        <li>Taburetes</li>
+                        <li>Cabeceras</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- COLUMNA CENTRAL (Círculo) -->
+            <div class="col-lg-4 col-md-12 order-lg-2 order-md-4 d-flex justify-content-center my-4">
+                <div class="circulo-central p-4">
+                    <div>NUESTROS<br>SERVICIOS</div>
+                </div>
+            </div>
+
+            <!-- COLUMNA DERECHA -->
+            <div class="col-lg-4 col-md-6 order-3">
+                <!-- Cuidados del Jardín -->
+                <div id="jardin" class="bloque-servicio mb-4 shadow-sm">
+                    <img src="/img/CuidadosDelJardin.jpg.jpeg" alt="Cuidados del Jardín" class="img-servicio-grande">
+                    <h3 class="titulo-servicio h5 text-center">CUIDADOS DEL JARDÍN</h3>
+                    <ul class="lista-servicios">
+                        <li>Mantenimiento de áreas verdes</li>
+                        <li>Poda y riego de jardines</li>
+                        <li>Mantenimiento de césped y plantas</li>
+                    </ul>
+                </div>
+                
+                <!-- Fumigación -->
+                <div id="fumigacion" class="bloque-servicio mb-4 shadow-sm">
+                    <img src="/img/Fumigacion.jpg.jpeg" alt="Fumigación" class="img-servicio-grande">
+                    <h3 class="titulo-servicio h5 text-center">FUMIGACIÓN</h3>
+                    <ul class="lista-servicios">
+                        <li>Fumigación de Plaga</li>
+                        <li>Desinfección para eliminar virus y bacterias</li>
+                    </ul>
+                </div>
+
+                <!-- Suministro de Productos de Limpieza -->
+                <div id="productos-limpieza" class="bloque-servicio shadow-sm">
+                    <img src="/img/SuministroDeProductosDeLimpieza.jpg.jpeg" alt="Suministro de Productos de Limpieza" class="img-servicio-grande">
+                    <h3 class="titulo-servicio h5 text-center">SUMINISTRO DE PRODUCTOS DE LIMPIEZA</h3>
+                    <ul class="lista-servicios">
+                        <li>Proveemos insumos y equipos de alta calidad para garantizar una higiene efectiva:</li>
+                        <li>Detergentes y desinfectantes profesionales.</li>
+                        <li>Consumibles para baños y áreas comunes</li>
+                    </ul>
+                </div>
+            </div>
+
         </div>
-    </div>
-</section>
-        </div>
+    </section>
+</div>
         <section>
           <H2 style="margin-bottom: 5%;">¡ENCUENTRANOS EN:</H2>
 <p style="margin-left: 5%;">
@@ -198,7 +218,7 @@
                     style="border:0;" 
                     allowfullscreen="" 
                     loading="lazy" 
-                    referrerpolicy="no-referrer-when-downgrade">
+                    referrerpolicy="no-referrer-when-downgrade" id="Address">
                 </iframe>
             </div>
         </div>
@@ -212,7 +232,7 @@
                 <li class="mb-3 d-flex align-items-center">
                     <span class="me-3" style="color: #0070c0; font-size: 1.3rem;">✉</span>
                     <div>
-                        <strong>Correo electrónico:</strong><br>
+                        <strong id="email">Correo electrónico:</strong><br>
                         <a href="mailto:ptcempresarial@gmail.com" style="text-decoration: none; color: #333;">ptcempresarial@gmail.com</a>
                     </div>
                 </li>
@@ -221,13 +241,13 @@
                 <li class="mb-3 d-flex align-items-center">
                     <span class="me-3" style="color: #0070c0; font-size: 1.3rem;">📞</span>
                     <div>
-                        <strong>Teléfono:</strong><br>
+                        <strong id="tel">Teléfono:</strong><br>
                         <a href="tel:+525951615792" style="text-decoration: none; color: #333;">+52 59 5161 5792</a>
                     </div>
                 </li>
                 
                 <li class="mt-4">
-            <strong class="d-block mb-2"><img src="/img/WAlogo.png" alt="WhatsApp" style="width: 22px; height: 22px; margin-right: 10px; object-fit: contain;">WhatsApp:</strong>
+            <strong class="d-block mb-2"><img src="/img/WAlogo.png" alt="WhatsApp" style="width: 22px; height: 22px; margin-right: 10px; object-fit: contain;" id="WhatsApp">WhatsApp:</strong>
             <div class="row g-2">
                 <!-- Botón WhatsApp 1 -->
                 <div class="col-sm-6">
@@ -258,48 +278,48 @@
 <div class="container-fluid">
             <div class="row p-5  bg-dark text-white">
                 <div class="col-xs-12 col-md-6 col-lg-3">
+                  <a href="/index.html"><img class="footer-brand" src="/img/logo.png" style="background-color: white;" alt="Logo" width="30%"></a>
                     <p class="h3">PROFESIONAL TOTAL CLEANER</p>
                     <p class="text-secondary">Ciudad de México, MX</p>
                 </div>
                 <div class="col-xs-12 col-md-6 col-lg-3" id="TextoFooter">
                     <p class="h5 mb-3">NUESTROS SERVICIOS</p>
                     <div class="mb-1">
-                        <a class="text-secondary text-decoration-none" href="">Limpieza General</a>
+                       <a class="text-secondary text-decoration-none" href="#limpieza">Limpieza General</a>
                     </div>
                     <div class="mb-2">
-                        <a class="text-secondary text-decoration-none" href="">Tapicería</a>
+                       <a class="text-secondary text-decoration-none" href="./#tapiceria">Tapicería</a>
                     </div>
                     <div class="mb-2">
-                        <a class="text-secondary text-decoration-none" href="">Suministro de productos de limpieza</a>
+                        <a class="text-secondary text-decoration-none" href="./#productos-limpieza">Suministro de Productos de Limpieza</a>
                     </div>
                     <div class="mb-2">
-                        <a class="text-secondary text-decoration-none" href=""> Cuidados del Jardín</a>
+                      <a class="text-secondary text-decoration-none" href="./#jardin">Cuidados del Jardín</a>
                     </div>
                     <div class="mb-2">
-                        <a class="text-secondary text-decoration-none" href=""> Fumigación</a>
+                        <a class="text-secondary text-decoration-none" href="./#fumigacion">Fumigación</a>
                     </div>
                 </div>
                 <div class=" col-xs-12 col-md-6 col-lg-3" id="TextoFooter">
-                    <p class="h5 mb-3" >Links</p>
+                    <p class="h5 mb-3" >NUESTRA UBICACIÓN</p>
                     <div class="mb-2">
-                        <a class="text-secondary text-decoration-none" href="">Términos y Condiciones</a>
-                    </div>
-                    <div class="mb-2">
-                        <a class="text-secondary text-decoration-none" href="">Política de Privacidad</a>
+                        <a class="text-secondary text-decoration-none" href="./#Address">Dirección</a>
                     </div>
                 </div>
                 <div class="col-xs-12 col-md-6 col-lg-3" id="TextoFooter">
                     <p class="h5 mb-3">Contacto</p>
                 <div class="mb-2">
-                    <a class="text-secondary text-decoration-none" href="">Instagram</a>
+                    <a class="text-secondary text-decoration-none" href="./#email">Correo Electrónico</a>
                 </div>
                 <div class="mb-2">
-                    <a class="text-secondary text-decoration-none" href="">Facebook</a>
+                    <a class="text-secondary text-decoration-none" href="./#tel">Teléfono</a>
                 </div>
+                <div class="mb-2">
+                    <a class="text-secondary text-decoration-none" href="./#WhatsApp">WhatsApp</a>
                 </div>
             </div>
             <div class="col-xs-12 pt-3 pb-1">
-                <p class="text-white text-center">Copyright - Todos los derechos reservados © 2024</p>
+                <p class="text-white text-center">Copyright - Todos los derechos reservados © 2026</p>
             </div>
         </div>
     </footer>
