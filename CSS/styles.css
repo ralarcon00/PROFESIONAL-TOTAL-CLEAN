@@ -1,0 +1,58 @@
+.Titulos{
+text-align: center;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    background-color: #f0f0f0; /* Color de fondo para las zonas de arriba y abajo del banner */
+    
+    /* Ponemos la imagen de fondo */
+   background-image: 
+        /* Degradado de luz: va de blanco con 40% de opacidad (casi transparente) 
+           a blanco con 70% de opacidad (más 'difuminado') */
+        linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.4)), 
+        url('../img/banner.png');
+    
+    /* Evita que se repita */
+    background-repeat: no-repeat;
+    
+    /* Centra la imagen exactamente en medio de la pantalla (Horizontal y Vertical) */
+    background-position: center center;
+    
+    /* Forzamos a que abarque el 100% del ancho y mantenga su altura proporcional */
+    background-size: 100% auto; 
+    
+    /* Opcional: si quieres que al bajar con el scroll el banner se quede fijo atrás */
+    background-attachment: fixed; 
+}
+
+H1{
+    color: #0070C0;
+    font-weight: bolder;
+}
+
+H2{
+    color: #0070C0;
+    font-weight: bolder;
+    text-align: center;
+}
+
+#NavbarBG {
+    background-color: #0070c0 !important; /* El color azul que pediste */
+}
+
+/* Opcional: Asegura que los textos del menú se vean blancos y legibles sobre el azul */
+#NavbarBG .nav-link {
+    color: #ffffff !important;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    max-height: 10%;
+}
+
+.exceptioncolorh2{
+    color: white !important;
+}
